@@ -1,5 +1,4 @@
 <h1>Welcome#index</h1>
 <p>Find me in app/views/welcome/index.html.erb</p>
 
-<%= react_component('Hello', message: 'Hello, React!') %>
-<%= react_component('CommentList') %>
+<%= react_component('CommentContainer', url: '/api/v1/comments.json') %>
